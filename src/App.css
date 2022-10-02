@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+}
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+/* ----------------------------------Home page--------------------------------------- */
+
+/* --------------------------------------------Header.js CSS---------------------- */
+.header {
+    width:100%;
+    height: 85px;
+    position: fixed;
+    top:0;
+    background-color:rgb(69, 166, 110);
+}
+.logo {
+    margin-top: 23px;
+    margin-left: 80px;
+}
+
+
+/* -------------------------------------Content.js CSS---------------------------------- */
+.home-container {
+    width:100%;
+    height: 1500px;
+    padding-top: 85px;
+}
+
+/* ----Section-1------- */
+.section-1 {
+    background-color: rgb(20, 38, 50);
+    padding:80px;
+}
+.head {
+    margin-left:150px;
+    margin-bottom: 50px;
+}
+.heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.para {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    /* font-size: larger; */
+}
+
+/* ----Section-2------- */
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.box {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width:250px;
+    height: 400px;
+    /* border:2px solid red; */
+    background-color: rgb(243, 243, 216);
+    border-radius: 10px;
+    padding: 30px;
+}
+.pic {
+    /* padding: 40px; */
+    margin-bottom: 20px;
+}
+.pic img{
+    width:250px;
+    height:220px;
+}
+.sec-2-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+.sec-2-para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ----Section-3------- */
+.section-3 {
+    padding:10px;
+    margin-left: 430px;
+}
+.expandButton {
+    padding:20px 110px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+
+/* ----------------------------------Footer.js css--------------------------------------- */
+.footer {
+    width:97%;
+    height: 130px;
+    background-color:rgb(69, 166, 110);
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.footer-data {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.footer-para {
+    width:50%;
+    height: fit-content;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    margin-left:50px;
+    margin-top:20px;
+}
+.symbols {
+    margin-left: 50px;
+}
+i {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/* ---------------------------------Second page--Movies------------------------------------ */
+.movie-container{
+    width:100%;
+}
+
+.back-Button {
+    padding-right: 30px;
+    padding-top: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+    position: fixed;
+    top:0;
+}
+.search-box {
+    margin-top: 25px;
+    margin-right: 100px;
+    position: fixed;
+    top:0;
+    right:0;
+}
+[placeholder='Search title']{
+    padding: 8px 5px;
+    padding-right: 90px;
+}
+
+.movie-header {
+    padding: 20px;
+    margin-top:110px;
+    margin-left:300px
+}
+.movie-heading {
+    font-size: 50px;
+    color: rgb(69, 166, 110);
+    font-weight: bold;
+}
